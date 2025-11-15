@@ -1,0 +1,87 @@
+# ------------------------
+# Node / Backend
+# ------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.tmp/
+.temp/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs
+*.log
+*.out
+*.pid
+
+# Debug
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# Database
+*.sqlite
+*.db
+*.pgsql
+.pgdata/
+dump.sql
+
+# VSCode settings
+.vscode/
+.history/
+.idea/
+
+# ------------------------
+# React / Frontend
+# ------------------------
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+
+# React cache
+client/.cache/
+client/.parcel-cache/
+client/.vite/
+client/.vite_deps/
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# ------------------------
+# Docker
+# ------------------------
+docker-data/
+docker-compose.override.yml
+.docker/
+docker/volumes/
+
+# ------------------------
+# Misc
+# ------------------------
+*.tgz
+*.zip
+*.tar
+*.log
+.env.backup
+.env.example
